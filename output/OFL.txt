@@ -1,8 +1,11 @@
+Files in this folder are derivatived from:
+   - the font "Libertinus Mono",
+   - the font "ISAS-Song ti" (gb24st.bdf).
+They are licensed under the SIL Open Font License.
 
-Files in this folder are derivatived from the font "Libertinus Mono",
-and are licensed under the SIL Open Font License.
-
+Copyright © 2024 oldherl <oldherl@gmail.com>,
 Copyright © 2012-2021 The Libertinus Project Authors,
+Copyright © 1988 The Institute of Software, Academia Sinica.
 with Reserved Font Name "Linux Libertine", "Biolinum", "STIX Fonts".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
