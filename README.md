@@ -84,11 +84,16 @@ Fortunately, it failed. That's why we can still use Chinese with elegant Hanzis 
 
 ## Installation / 安装
 ### Arch Linux (AUR)
-(WIP)
+Install from AUR / 从 AUR 安装: [syllazh](https://aur.archlinux.org/packages/syllazh)
 ### Manually for other Linux distros / 其他 Linux 发行版，手动安装
-Copy the [output/syllazh.psfu.gz](./output/syllazh.psfu.gz) file to `/usr/share/kbd/consolefonts/`. Then run `setfont syllazh` from a TTY. Enjoy!
+Download from "Releases". Extract and copy the syllazh.psfu.gz file to `/usr/share/kbd/consolefonts/`. 
 
-将 [output/syllazh.psfu.gz](./output/syllazh.psfu.gz) 文件复制到 `/usr/share/kbd/consolefonts/` 目录中。然后在TTY里运行 `setfont syllazh`。请尽情享用！
+从 "Releases" 中下载并解压，并将 syllazh.psfu.gz 文件复制到 `/usr/share/kbd/consolefonts/` 目录中。
+
+## Usage / 使用
+Run `setfont syllazh` from a TTY. Enjoy!
+
+在TTY里运行 `setfont syllazh`。请尽情享用！
 
 ## License / 许可
 The generated font is released under the [SIL OFL](./output/OFL.txt).
