@@ -33,7 +33,7 @@ It's 2024 now, you should be using your favorite Wayland or X desktop, not TTY. 
 
 I developed this as an exercise to understand better about the text rendering in Linux TTY, or a challenge to explore the limit of "obsolete" technology.
 
-我把这个项目是为了更好地理解 Linux TTY 的文字渲染，或看作一种对「老旧」技术的边界的探索。
+我开发这个项目是为了更好地理解 Linux TTY 的文字渲染，或把它看作一种对「老旧」技术的边界的探索。
 
 One possible use case might be performing some maintenance tasks in a Live environment (such as ArchISO).
 You don't have access to graphical desktop or patched kernels and are stuck in the TTY, but need to check the filenames that are in Chinese.
@@ -60,7 +60,12 @@ Fortunately, it failed. That's why we can still use Chinese with elegant Hanzis 
 (WIP)
 
 ## Installation / 安装
+### Arch Linux (AUR)
 (WIP)
+### Manually for other Linux distros / 其他 Linux 发行版，手动安装
+Copy the [output/syllazh.psfu.gz](./output/syllazh.psfu.gz) file to `/usr/share/kbd/consolefonts/`. Then run `setfont syllazh` from a TTY. Enjoy!
+
+将 [output/syllazh.psfu.gz](./output/syllazh.psfu.gz) 文件复制到 `/usr/share/kbd/consolefonts/` 目录中。然后在TTY里运行 `setfont syllazh`。请尽情享用！
 
 ## License / 许可
 The generated font is released under the [SIL OFL](./output/OFL.txt).
@@ -72,4 +77,8 @@ Files in sub-folders are released under different license. You can find the deta
 各个子目录中的文件以其他协议发布，你可以在对应目录中查看它们的协议。
 
 ## Acknowledgement / 致谢
-(WIP)
+- [PSF Tools](https://www.seasip.info/Unix/PSF/) for the tool dumping psf fonts to a custom text format and converting back.
+- [bdf2psf](https://packages.debian.org/unstable/bdf2psf) for bdf-to-psf converting tool.
+- [Libertinus Fonts](https://github.com/alerque/libertinus) for the "Libertinus Mono" font, which I use for the ASCII range.
+- The Institute of Software, Academia Sinica (中国科学院软件研究所) for making the `gb24st.bdf` 24-pixel Song Ti bitmap font free for everyone as early as the year 1988.
+- [Andries Brouwer](https://www.win.tue.nl/~aeb/linux/kbd/font-formats.html) and [OSDev Wiki](https://wiki.osdev.org/PC_Screen_Font) for great documentation of PC Screen Font (psf) file format.
