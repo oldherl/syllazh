@@ -1,4 +1,4 @@
-Files in this folder are derivatived from:
+Files in this folder are derived from:
    - the font "Libertinus Mono",
    - the font "ISAS-Song ti" (gb24st.bdf).
 They are licensed under the SIL Open Font License.
