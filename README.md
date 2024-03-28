@@ -40,14 +40,14 @@ Now you can install just one tiny font and get some "hint" of those filesnames, 
 
 我能想到的一种使用场景是在某种 Live 环境（如 ArchISO）中执行维护任务。
 你没有办法使用图形界面或打过补丁的内核，只能用TTY，但是需要检查一些含中文的文件名。
-你也不想安装和配置TTY的代用品，只希望把中文显示得比纯粹的 [豆腐](https://blog.justfont.com/2017/06/font-chat-room-1-noto-serif-cjk/) 好一些即可。
+你也不想安装和配置TTY的代用品，只希望把中文显示得比纯粹的[豆腐](https://blog.justfont.com/2017/06/font-chat-room-1-noto-serif-cjk/)好一些即可。
 这时你只需要安装一个小小的字体就能猜测那些文件名了，这大概能或多或少地帮助到你。
 
 Another interesting thought is that it gives a hint about how Chinese would look like if the [2nd Simp. Chinese Scheme](https://en.wikipedia.org/wiki/Second_round_of_simplified_Chinese_characters) succeeded.
 (Note: this project is not using the exact characters as the 2nd Simp. Chinese)
 In that scheme, many Chinese characters got merged just based on similar sounds or shapes, despite having distinct meanings and sources. It was considerd a step towards the romanization of the Chinese language.
 
-另一个有意思的想法是，你可以感受到如果 [二简字](https://zh.wikipedia.org/zh-cn/%E4%BA%8C%E7%AE%80%E5%AD%97) 运动成功了，中文大概会变得怎样。（注：本项目与二简字简化方案不同）
+另一个有意思的想法是，你可以感受到如果[二简字](https://zh.wikipedia.org/zh-cn/%E4%BA%8C%E7%AE%80%E5%AD%97)运动成功了，中文大概会变得怎样。（注：本项目与二简字简化方案不同）
 在该方案中，许多汉字仅仅因为读音或形状相似就被合并，完全无视了它们的字义和字源。它被认为是朝着汉字拉丁化的一种试验。
 
 Fortunately, it failed. That's why we can still use Chinese with elegant Hanzis today.
@@ -100,7 +100,7 @@ The generated font is released under the [SIL OFL](./output/OFL.txt).
 Files in the root folder (currently only `readbdf.py` and `pinyin_hanzi` files) are released under GNU Lesser General Public License (LGPL) 2.1.
 Files in sub-folders are released under different license. You can find the details in those folders.
 
-生成的字体以 [SIL OFL 协议](./output/OFL.txt) 发布。
+生成的字体以 [SIL OFL 协议](./output/OFL.txt)发布。
 根目录中的文件（目前只有`readbdf.py`和`pinyin_hanzi`文件）以 GNU Lesser General Public License (LGPL) 2.1 协议发布。
 各个子目录中的文件以其他协议发布，你可以在对应目录中查看它们的协议。
 
