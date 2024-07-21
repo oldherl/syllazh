@@ -91,6 +91,10 @@ Download from "Releases". Extract and copy the syllazh.psfu.gz file to `/usr/sha
 从 "Releases" 中下载并解压，并将 syllazh.psfu.gz 文件复制到 `/usr/share/kbd/consolefonts/` 目录中。
 
 ## Usage / 使用
+**Note: Requires `setfont`>=2.6rc1. See [#2](https://github.com/oldherl/syllazh/issues/2) for details.**
+
+**注意：需要 `setfont`>=2.6rc1。细节参看 [#2](https://github.com/oldherl/syllazh/issues/2) **
+
 Run `setfont syllazh` from a TTY. Enjoy!
 
 在TTY里运行 `setfont syllazh`。请尽情享用！
